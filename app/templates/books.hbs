@@ -1,0 +1,9 @@
+<h1>Demo displaying books</h1>
+{{#each book in model}}
+ 	 <h2>{{book.title}}</h2>
+	 {{book.author}}<br />
+	 {{book.genre}}<br /> 
+	 {{book.ISBN_number}}<br />
+	 {{book.description}}<br /> 
+	 {{book.screenshot}}<br />  
+{{/each}}
